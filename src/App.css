@@ -10,8 +10,11 @@ a, ul{
   list-style: none;
 }
 
-main {
+body{
   background-color: rgb(28, 28, 28);
+}
+
+main {
   padding: 0 10vw;
 }
 

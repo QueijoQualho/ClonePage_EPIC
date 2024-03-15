@@ -1,0 +1,21 @@
+.Card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: calc(100%/7);
+}
+
+#cardImg{
+    height: 100%;
+    width: 50px;
+    border-radius: 1rem;
+}
+
+#cardText{
+    color: white;
+    font-size: 1rem;
+    font-weight: normal;
+    padding: 5px;
+}
