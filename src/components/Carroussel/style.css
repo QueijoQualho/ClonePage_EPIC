@@ -1,4 +1,4 @@
-.banner{
+.banner {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -16,4 +16,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: aliceblue;
+}
+
+.vComp {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    justify-content: space-evenly;
+    padding: 1%;
 }
