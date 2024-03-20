@@ -1,10 +1,15 @@
 import "./style.css"
 
-const Card = () =>{
+type props = {
+    img: string,
+    title: string
+}
+
+const Card = (props:props) =>{
     return(
         <div className="Card">
-            <img id="cardImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgpVZ0KLfprA7bbP-VeQsyGGD2akDRnGWbG67BdvfQmw&s" alt="" />
-            <h1 id="cardText">Text</h1>
+            <img id="cardImg" src={props.img} alt="" />
+            <h1 id="cardText">{props.title}</h1>
         </div>
     )
 }

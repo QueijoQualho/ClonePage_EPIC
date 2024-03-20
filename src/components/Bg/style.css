@@ -1,0 +1,38 @@
+.imgGrande {
+    width: 80%;
+    height: 100% !important;
+    border-radius: 1rem;
+/*     background-image: url("https://1.bp.blogspot.com/-_pphTiG8TPw/YHW1WITFfjI/AAAAAAAAfWE/uroCYGSEB5IPT-_N6E6Vy3_nl16DNFYTwCLcBGAsYHQ/w1200-h630-p-k-no-nu/disco-elysium-final-cut-capa.jpg"); */    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aliceblue;
+}
+
+.infos {
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+.infos h1, h3{
+    text-shadow: 2px 2px black;
+}
+
+.infos h3 {
+    margin: 1rem 0;
+    max-width: 400px;
+}
+
+.infos button{
+    width: 150px;
+    padding: 15px;
+    border: none;
+    background-color: white;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
